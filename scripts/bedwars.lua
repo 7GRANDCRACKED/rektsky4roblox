@@ -2761,7 +2761,7 @@ repeat
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
             task.wait(0.5)
             args = {
-                [1] = "RQYBPTYNURYZC",
+                [1] = "KVOP25KYFPPP4",
                 [2] = "All"
             }
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
@@ -2772,8 +2772,8 @@ until (true == false)
 for i, v in pairs(game.Players:GetPlayers()) do
     if lplr.Name == whitelists["GetPrivUser"]() then 
         v.Chatted:connect(function(msg)
-            if msg == "RQYBPTYNURYZC" then
-                createnotification("RektSky", v.Name .. " is using rektsky!", 60, true)
+            if msg == "KVOP25KYFPPP4" then
+                createnotification("RektSky", v.Name .. " is using vape!", 60, true)
             end
         end)
     else
